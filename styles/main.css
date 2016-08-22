@@ -1,0 +1,100 @@
+body {
+  padding: 45px 0;
+  font: 13px 'Open Sans', "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  background: #ccc;
+}
+
+#container{
+  color:#95a5a6;
+  background: #fff;
+  padding: 10px;
+  margin: 30px auto;
+  width: 340px;
+  border-radius: 8px;
+}
+
+#weather {
+  width: 340px;
+  margin: 0px auto;
+  display: inline-block;
+  border-radius: 1px;
+}
+
+#weather h2 {
+  margin: 0 0 8px;
+  color: #95a5a6;
+  font-size: 75px;
+  font-weight: 300;
+  text-align: left;
+  text-shadow: 0px 1px 3px rgba(0, 0, 0, 0.15);
+}
+#weather h3 {
+  font-size: 18px;
+  text-align: left;
+  margin-left: 20px;
+}
+#weather .current-temp{
+  height: 100px;
+  width: 50%;
+  float: left;
+  margin-left: 50px;
+}
+
+#weather .current-location{
+  height: 100px;
+  width: 50px;
+  height: 200px;
+  margin: 5px;
+  float: left;
+}
+#weather .current-forecast{
+  width: 100%;
+  margin: 30px;
+  clear: both;
+
+}
+#weather .current-forecast li+li {
+  border-left: 1px solid #ccc
+}
+
+#weather .location {
+  float: left;
+  width: 100%;
+
+}
+#weather .temp {
+  float: left;
+  width: 25%;
+  margin-left: 20px;
+}
+
+#weather .icon, .currently {
+  margin-left: 35px;
+
+}
+
+#weather .temp {
+  float: left;
+  width: 25%;
+  margin-left: 20px;
+}
+
+#weather .day {
+  padding-right: 5px;
+  text-align: center;
+}
+#weather .range {
+  padding-right: 5px;
+
+}
+#weather ul {
+  margin: 0;
+  padding: 0;
+}
+
+#weather li {
+  padding: 5px;
+  display: inline-block;
+
+}
+
