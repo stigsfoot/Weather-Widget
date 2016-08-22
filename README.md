@@ -1,8 +1,8 @@
 # Weather-Widget
 Simple weather widget
+![Imgur](http://i.imgur.com/05qIbZm.png)
 
 # Dependencies
-
 * jQuery
 * SimpleWeather
 
